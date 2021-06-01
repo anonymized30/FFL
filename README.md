@@ -6,7 +6,7 @@ This repository contains PyTorch implementation of the paper Enhanced Security a
 [Enhanced Security and Privacy via Fragmented Federated Learning]
 
 ## Content
-The repository contains one main jupyter notebook: `Experiments.IPYNB` in each data set folder. These notebooks can be used to re-produce the experimental results reported in the paper. Each notebook contains clear instructions on how to run the experiments. 
+The repository contains one main jupyter notebook: `Experiments.IPYNB` in each folder which can be used to re-produce the experiments reported in the paper. Each notebook contains clear instructions on how to run the experiments. 
 
 
 
