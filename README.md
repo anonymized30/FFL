@@ -1,5 +1,5 @@
 # Enhanced Security and Privacy via Fragmented Federated Learning
-This repository contains PyTorch implementation of the paper Enhanced Security and Privacy via Fragmented Federated Learning
+This repository contains PyTorch implementation of the paper: Enhanced Security and Privacy via Fragmented Federated Learning
 
 ## Paper 
 
