@@ -26,6 +26,9 @@ To simplify reproduction, we provide the experiments on [MNIST](http://yann.lecu
 
 
 ## Results
+
+### Robustness to poisoning attacks
+
 <img src="Results/mnist_GN.png" width="33%"><img src="Results/cifar10_GN.png" width="33%"><img src="Results/imdb_GN.png" width="33%">
 
 *Results of Gaussian noise attacks on the MNIST dataset (left), the CIFAR-10 (middle) and the IMDB (right).* </br></br>
@@ -35,6 +38,8 @@ To simplify reproduction, we provide the experiments on [MNIST](http://yann.lecu
 
 *Results of label-flipping attacks on the MNIST dataset (left), the CIFAR-10 (middle) and the IMDB (right).*
 </br></br>
+
+### Defending reconstruction attacks
 
 <img src="Results/input11.png" width="30%"><img src="Results/output11.png" width="30%"><img src="Results/output11_mixed.png" width="30%">
 
