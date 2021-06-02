@@ -30,6 +30,7 @@ To simplify reproduction, we provide the experiments on [MNIST](http://yann.lecu
 
 *Results of Gaussian noise attacks on the MNIST dataset (left), the CIFAR-10 (middle) and the IMDB (right).*
 
+
 <img src="Results/mnist_LF_class(9).png" width="30%"><img src="Results/cicar10_LF_class(cat).png" width="30%"><img src="Results/imdb_LF_class(positive).png" width="30%">
 
 *Results of label-flipping attacks on the MNIST dataset (left), the CIFAR-10 (middle) and the IMDB (right).*
