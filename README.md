@@ -26,7 +26,9 @@ To simplify reproduction, we provide the experiments on [MNIST](http://yann.lecu
 
 
 ## Results
-![MNIST](Results/mnist_GN.png?raw=true)![CIFAR10](Results/cifar10_GN.png?raw=true)![IMDB](Results/imdb_GN.png?raw=true)
+<img src="Results/mnist_GN.png" width="48">
+<img src="Results/cifar10_GN.png" width="48">
+<img src="Results/imdb_GN.png" width="48">
 
 *Results of Gaussian noise attacks on the MNIST dataset (left), on the CIFAR-10 (middle) and on the IMDB (right).*
 ## Citation 
