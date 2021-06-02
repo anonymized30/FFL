@@ -28,12 +28,13 @@ To simplify reproduction, we provide the experiments on [MNIST](http://yann.lecu
 ## Results
 <img src="Results/mnist_GN.png" width="33%"><img src="Results/cifar10_GN.png" width="33%"><img src="Results/imdb_GN.png" width="33%">
 
-*Results of Gaussian noise attacks on the MNIST dataset (left), the CIFAR-10 (middle) and the IMDB (right).* </br>
+*Results of Gaussian noise attacks on the MNIST dataset (left), the CIFAR-10 (middle) and the IMDB (right).* </br></br>
 
 
 <img src="Results/mnist_LF_class(9).png" width="33%"><img src="Results/cicar10_LF_class(cat).png" width="33%"><img src="Results/imdb_LF_class(positive).png" width="33%">
 
 *Results of label-flipping attacks on the MNIST dataset (left), the CIFAR-10 (middle) and the IMDB (right).*
+</br></br>
 
 <img src="Results/input11.png" width="30%"><img src="Results/output11.png" width="30%"><img src="Results/output11_mixed.png" width="30%">
 
@@ -43,9 +44,11 @@ To simplify reproduction, we provide the experiments on [MNIST](http://yann.lecu
 
 </br></br>
 
-<img src="Results/input18.png" width="80%"><img src="Results/output18.png" width="80%"><img src="Results/output18_mixed.png" width="80%">
+<img src="Results/input18.png" width="90%"><img src="Results/output18.png" width="90%"><img src="Results/output18_mixed.png" width="90%">
 
-<img src="Results/input28.png" width="80%"><img src="Results/output28.png" width="80%"><img src="Results/output28_mixed.png" width="80%">
+<img src="Results/input28.png" width="90%"><img src="Results/output28.png" width="90%"><img src="Results/output28_mixed.png" width="90%">
+
+*The first set of images shows the reconstruction of a batch of 8 input images from the gradients by the participant $k$ and second set by the participant $j$. The first row of each set shows the input images. The second row shows the reconstruction from the original gradients of $k$ \& $j$ (FL), respectively. The last row shows the reconstruction from the mixed gradients (FFL).*
 
 
 ## Citation 
