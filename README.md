@@ -25,7 +25,10 @@ To simplify reproduction, we provide the experiments on [MNIST](http://yann.lecu
 [TensorFlow 2](https://www.tensorflow.org/)
 
 
+## Results
+![MNIST](Results/mnist_GN.png?raw=true) ![CIFAR10](Results/cifar10_GN.png?raw=true) ![IMDB](Results/imdb_GN.png?raw=true)
 
+*Results of Gaussian noise attacks on the MNIST dataset (left), on the CIFAR-10 (middle) and on the IMDB (right).*
 ## Citation 
 
 
