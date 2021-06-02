@@ -34,6 +34,11 @@ To simplify reproduction, we provide the experiments on [MNIST](http://yann.lecu
 <img src="Results/mnist_LF_class(9).png" width="33%"><img src="Results/cicar10_LF_class(cat).png" width="33%"><img src="Results/imdb_LF_class(positive).png" width="33%">
 
 *Results of label-flipping attacks on the MNIST dataset (left), the CIFAR-10 (middle) and the IMDB (right).*
+
+img src="Results/input11.png" width="33%"><img src="Results/output11.png" width="33%"><img src="Results/output11_mixed.png" width="33%">
+
+img src="Results/input21.png" width="33%"><img src="Results/output21.png" width="33%"><img src="Results/output21_mixed.png" width="33%">
+
 ## Citation 
 
 
