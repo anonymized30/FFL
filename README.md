@@ -35,9 +35,9 @@ To simplify reproduction, we provide the experiments on [MNIST](http://yann.lecu
 
 *Results of label-flipping attacks on the MNIST dataset (left), the CIFAR-10 (middle) and the IMDB (right).*
 
-<img src="Results/input11.png" width="25%"><img src="Results/output11.png" width="25%"><img src="Results/output11_mixed.png" width="25%">
+<img src="Results/input11.png" width="30%"><img src="Results/output11.png" width="30%"><img src="Results/output11_mixed.png" width="30%">
 
-<img src="Results/input21.png" width="25%"><img src="Results/output21.png" width="25%"><img src="Results/output21_mixed.png" width="25%">
+<img src="Results/input21.png" width="30%"><img src="Results/output21.png" width="30%"><img src="Results/output21_mixed.png" width="30%">
 
 *Reconstruction of two input images from the gradients of two participants $k$ and $j$.  Left: Two input images from $k$ and $j$. Middle: Reconstruction from original gradients (FL). Right: Reconstruction from mixed gradients (FFL).*
 
