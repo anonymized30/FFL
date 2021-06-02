@@ -39,7 +39,7 @@ To simplify reproduction, we provide the experiments on [MNIST](http://yann.lecu
 
 <img src="Results/input21.png" width="33%"><img src="Results/output21.png" width="33%"><img src="Results/output21_mixed.png" width="33%">
 
-*Reconstruction of two input images from the gradients of two participants $k$ and $j$.  Left: Two input images from $k$ and $j$. Middle: Reconstruction from original gradients (FL). Right: Reconstruction from mixed gradients (FFL).
+*Reconstruction of two input images from the gradients of two participants $k$ and $j$.  Left: Two input images from $k$ and $j$. Middle: Reconstruction from original gradients (FL). Right: Reconstruction from mixed gradients (FFL).*
 
 ## Citation 
 
