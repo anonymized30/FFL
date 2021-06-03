@@ -45,7 +45,7 @@ To simplify reproduction, we provide the experiments on [MNIST](http://yann.lecu
 
 <img src="Results/input21.png" width="30%"><img src="Results/output21.png" width="30%"><img src="Results/output21_mixed.png" width="30%">
 
-*Reconstruction of two input images from the gradients of two participants $k$ and $j$.  Left: Two input images from $k$ and $j$. Middle: Reconstruction from original gradients (FL). Right: Reconstruction from mixed gradients (FFL).*
+*Reconstruction of two input images from the gradients of two participants k and j.  Left: Two input images from k and j. Middle: Reconstruction from original gradients (FL). Right: Reconstruction from mixed gradients (FFL).*
 
 </br></br>
 
@@ -53,7 +53,7 @@ To simplify reproduction, we provide the experiments on [MNIST](http://yann.lecu
 
 <img src="Results/input28.png" width="90%"><img src="Results/output28.png" width="90%"><img src="Results/output28_mixed.png" width="90%">
 
-*The first set of images shows the reconstruction of a batch of 8 input images from the gradients by the participant $k$ and second set by the participant $j$. The first row of each set shows the input images. The second row shows the reconstruction from the original gradients of $k$ \& $j$ (FL), respectively. The last row shows the reconstruction from the mixed gradients (FFL).*
+*The first set of images shows the reconstruction of a batch of 8 input images from the gradients by the participant k and second set by the participant j. The first row of each set shows the input images. The second row shows the reconstruction from the original gradients of k and j (FL), respectively. The last row shows the reconstruction from the mixed gradients (FFL).*
 
 
 ## Citation 
