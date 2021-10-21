@@ -1,5 +1,4 @@
-'''Some helper functions
-'''
+
 import torchvision
 from torchvision import datasets, transforms
 import random
