@@ -20,24 +20,6 @@ class CNNMNIST(nn.Module):
         x = self.fc2(x)
         return F.log_softmax(x, dim=1)
 
-class DenseNet(nn.Module):
-    def __init__(self, num_inputs, num_hidden_layers, num_outs):
-        super(DenseNet, self).__init__()
-        self.input_layer = nn.Linear(num_inputs, num_hidden_layers)
-        self.relu = nn.ReLU()
-        self.dropout = nn.Dropout()
-        self.hidden_layer = nn.Linear(num_hidden_layers, num_outs)
-        self.softmax = nn.Softmax(dim=1)
-
-    def forward(self, x):
-        x = x.view(-1, x.shape[1]*x.shape[-2]*x.shape[-1])
-        x = self.input_layer(x)
-        x = self.dropout(x)
-        x = self.relu(x)
-        x = self.hidden_layer(x)
-        return self.softmax(x)
-
-
 
 '''ResNet in PyTorch.
 For Pre-activation ResNet, see 'preact_resnet.py'.
