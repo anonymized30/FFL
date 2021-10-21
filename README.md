@@ -39,7 +39,7 @@ To simplify reproduction, we provide the experiments on [MNIST](http://yann.lecu
 *Results of label-flipping attacks on the MNIST dataset (left), the CIFAR-10 (middle) and the IMDB (right).*
 </br></br>
 
-### Defending reconstruction attacks
+### Defending against reconstruction attacks
 
 <img src="Results/input11.png" width="30%"><img src="Results/output11.png" width="30%"><img src="Results/output11_mixed.png" width="30%">
 
