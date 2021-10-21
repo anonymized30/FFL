@@ -19,6 +19,7 @@ from operator import itemgetter
 import time
 from random import shuffle
 from averaging import *
+import hdbscan
 
 class Peer():
     # Class variable shared among all the instances
