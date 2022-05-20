@@ -14,8 +14,12 @@ The repository contains one jupyter notebook: `Experiments.IPYNB` in each folder
 Usage and distribution of such code should be done separately at their authors' disclosure.
 Reach out ([Inverting Gradients](https://github.com/JonasGeiping/invertinggradients)). We just provide a jupyter notebook that requires other packages from the mentioned source.
 
-To simplify reproduction, we provide the experiments on [MNIST](http://yann.lecun.com/exdb/mnist/) and [CIFAR10](https://www.cs.toronto.edu/~kriz/cifar.html) datasets.
-[IMDB](https://ai.stanford.edu/~amaas/data/sentiment/) requires manual downloads that are still not ready and that will be included soon.
+## Data sets
+[Adult](https://archive.ics.uci.edu/ml/datasets/adult/) is already saved in the folder ''data''.
+[MNIST](http://yann.lecun.com/exdb/mnist/) and [CIFAR10](https://www.cs.toronto.edu/~kriz/cifar.html) will be automatically downloaded.
+However, [IMDB](https://ai.stanford.edu/~amaas/data/sentiment/) requires a manual download using this [link](https://drive.google.com/file/d/1X86CyTJW77a1CCkAFPvN6pqceN63q2Tx/view?usp=sharing). 
+After downloading [IMDB](https://ai.stanford.edu/~amaas/data/sentiment/), please save it as imdb.csv in the folder named ''data''.
+
 ## Dependencies
 
 [Python 3.6](https://www.anaconda.com/download)
@@ -31,12 +35,12 @@ To simplify reproduction, we provide the experiments on [MNIST](http://yann.lecu
 
 <img src="Results/mnist_GN.png" width="33%"><img src="Results/cifar10_GN.png" width="33%"><img src="Results/imdb_GN.png" width="33%">
 
-*Results of Gaussian noise attacks on the MNIST dataset (left), the CIFAR-10 (middle) and the IMDB (right).* </br></br>
+*Results of Gaussian noise attacks.* </br></br>
 
 
 <img src="Results/mnist_LF_class(9).png" width="33%"><img src="Results/cicar10_LF_class(cat).png" width="33%"><img src="Results/imdb_LF_class(positive).png" width="33%">
 
-*Results of label-flipping attacks on the MNIST dataset (left), the CIFAR-10 (middle) and the IMDB (right).*
+*Results of label-flipping attacks.*
 </br></br>
 
 ### Defending against reconstruction attacks
