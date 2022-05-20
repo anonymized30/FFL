@@ -35,12 +35,9 @@ After downloading [IMDB](https://ai.stanford.edu/~amaas/data/sentiment/), please
 
 <img src="Results/GN.PNG" width="100%">
 
-*Results of Gaussian noise attacks.* </br></br>
-
 
 <img src="Results/LF.PNG" width="100%">
-*Results of label-flipping attacks.*
-</br></br>
+
 
 ### Defending against reconstruction attacks
 
