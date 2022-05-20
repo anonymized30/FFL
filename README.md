@@ -33,12 +33,12 @@ After downloading [IMDB](https://ai.stanford.edu/~amaas/data/sentiment/), please
 
 ### Robustness to poisoning attacks
 
-<img src="Results/GN.png" width="100%">
+<img src="Results/GN.PNG" width="100%">
 
 *Results of Gaussian noise attacks.* </br></br>
 
 
-<img src="Results/LF.png" width="100%">
+<img src="Results/LF.PNG" width="100%">
 *Results of label-flipping attacks.*
 </br></br>
 
