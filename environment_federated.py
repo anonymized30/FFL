@@ -119,12 +119,11 @@ class Peer():
                     data = torch.vstack((data, pdata))
                     target = torch.hstack((target, ptarget))
                 
+                model.zero_grad()
                 output = model(data)
                 loss = self.criterion(output, target)
                 loss.backward()    
                 optimizer.step()
-                model.zero_grad()
-                optimizer.zero_grad()
                 epoch_loss.append(loss.item())
             # print('Train epoch: {} \tLoss: {:.6f}'.format((epochs+1), np.mean(epoch_loss)))
             epochs_loss.append(np.mean(epoch_loss))
