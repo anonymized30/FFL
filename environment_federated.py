@@ -313,7 +313,7 @@ class FL:
     #choose random set of peers
     def choose_peers(self, epoch, use_reputation = False):
         #pick m random peers from the available list of peers
-        if use_reputation and epoch >= 10:
+        if use_reputation and epoch >= 20:
             q1 = np.quantile(self.global_reputation, 0.25)
             idxs = np.where(self.global_reputation >= q1)
             peers = np.arange(self.num_peers)
@@ -357,7 +357,7 @@ class FL:
         for i in range(20):
             k, j = np.random.choice(list(peers_set), 2, replace=False)
             if (self.peers[k].exchange_decision(j) and \
-                self.peers[j].exchange_decision(k)) or epoch < 10:
+                self.peers[j].exchange_decision(k)) or epoch < 20:
                 kidx = np.where(selected_peers == k)[0][0]
                 jidx = np.where(selected_peers == j)[0][0]
                 exchange_list.append((k, j))
@@ -490,7 +490,7 @@ class FL:
                 for k, s in sim_dict.items():
                     models.append(mixed_updates[k])
                     idxs.append(k)
-                if epoch < 10:
+                if epoch < 20:
                     global_weights = simple_median(models)
                 else:
                     q1 = np.quantile(self.global_reputation, 0.25)
