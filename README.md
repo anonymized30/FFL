@@ -57,7 +57,21 @@ After downloading [IMDB](https://ai.stanford.edu/~amaas/data/sentiment/), please
 
 
 ## Citation 
+@article{jebreel2022enhanced,
+  title={Enhanced security and privacy via fragmented federated learning},
+  author={Jebreel, Najeeb Moharram and Domingo-Ferrer, Josep and Blanco-Justicia, Alberto and S{\'a}nchez, David},
+  journal={IEEE Transactions on Neural Networks and Learning Systems},
+  year={2022},
+  publisher={IEEE}
+}
 
 
 
 ## Funding
+This work was supported in part by the European Commission “SoBigData++” under Project H2020-871042 and
+“MobiDataLab” under Project H2020-101006879; in part by the Ministerio de Ciencia e Innovación (MCIN)/Agencia Estatal de Investigación (AEI)
+under Grant 10.13039/501100011033; and in part by the “European Regional Development Fund (ERDF) a Way of Making Europe” under Grant PID2021-
+123637NB-I00 “CURLING.” The work of Najeeb Moharram Jebreel was supported by FI. The work of Josep Domingo-Ferrer and David Sánchez was
+supported by the Government of Catalonia [Institució Catalana de Recerca i Estudis Avançats (ICREA) Acadèmia Prizes]. (Corresponding author:
+David Sánchez.)
+The authors are with the UNESCO Chair in Data Privacy, CYBERCAT Center for Cybersecurity Research of Catalonia, Department of Computer Engineering and Mathematics, Universitat Rovira i Virgili, E-43007 Tarragona, Spain (e-mail najeeb.jebreel@urv.cat; josep.domingo@urv.cat; alberto.blanco@urv.cat; david.sanchez@urv.cat).
