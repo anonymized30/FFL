@@ -3,7 +3,7 @@ This repository contains PyTorch implementation of the paper: Enhanced Security 
 
 ## Paper 
 
-[Enhanced Security and Privacy via Fragmented Federated Learning]()
+[Enhanced Security and Privacy via Fragmented Federated Learning](https://ieeexplore.ieee.org/abstract/document/9925189)
 
 ## Content
 The repository contains one jupyter notebook for each benchmark named, named `Experiments_DATASET_NAME_IID_ATTACKTYPE.IPYNB` (e.g., Experiments_ADULT_IID_GN) which can be used to re-produce the experiments reported in the paper. Each notebook contains clear instructions on how to run the experiments. 
